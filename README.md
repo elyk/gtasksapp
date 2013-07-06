@@ -1,4 +1,6 @@
-gtasksapp
-=========
+GOOGLE TASK CLIENT APP
 
-google tasks client
+- GTASKS API:
+https://developers.google.com/google-apps/tasks/v1/reference/
+https://developers.google.com/google-apps/tasks/v1/reference/tasks#resource
+

@@ -1,0 +1,12 @@
+<ul class="side-nav">
+  <h3><a href="#tasks">Done</a></h3>
+  <h6 class="subheader addList">add list +</h6>
+  <form id='newTaskList' style='display:none'>
+	<input class='listName'>
+	<input type='submit'>
+  </form>
+  <hr>
+ {{#each task_list}}
+<li><a href="#tasks/{{this.id}}/{{{this.title}}}">{{this.title}}</li>
+ {{/each}}
+</ul>

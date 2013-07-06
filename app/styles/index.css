@@ -1,0 +1,115 @@
+/*-- HTML5 Boilerplate. -----------------------------------------------------*/
+
+@import "../../vendor/h5bp/css/normalize.css";
+@import "../../vendor/h5bp/css/main.css";
+@import "../../vendor/foundation/css/foundation.css";
+
+
+/*@import "transitions.css";
+*//*@import "animate.css";
+@import "../../vendor/lungo/lungo.css";
+@import "../../vendor/lungo/theme.lungo.css";*/
+
+/*-- Application stylesheets. -----------------------------------------------*/
+
+a {
+	color: inherit;
+}
+
+html {
+	background-image: url("../images/bg.png");
+}
+
+body {
+	overflow: hidden;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.main_panel {
+	overflow-y: scroll;
+	margin-top: 10px;
+	height: 500px;
+	width: 100%;
+	margin-left: 25%;
+}
+
+.main_panel li {
+	list-style-type: none;
+}
+
+.main_panel li .task_wrapper {
+	background: #F2F2F2;
+	padding: 2%;
+	margin: 1%;
+	overflow: hidden;
+	height: 50px;
+/*	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;*/
+}
+
+.main_panel .taskList {
+	width: 50%;
+}
+/*wraps the tasks*/
+.main_panel .taskListWrapper {
+	background: grey;
+	padding: 2%;
+}
+.main_panel li button {
+	float: right;
+}
+.main_panel li p {
+	line-height: 1.2;
+}
+.main_panel li .delete {
+	float: left;
+}
+
+#side_bar_container {
+	left: 0;
+	top: 0;
+	position: fixed;
+	color: white;
+	width: 12%;
+	padding: 1%;
+	background: #585858;
+	bottom: 0;
+	min-width: 120px;
+	border-right: solid #BDBDBD 2px;
+}
+
+.expanded_height {
+	height: 100% !important;
+}
+.showHidden {
+	display: block !important;
+	margin: 5%;
+}
+
+.side-nav {
+	padding: 5%;
+
+
+}
+.side-nav li a {
+	font-size: 18px !important;
+	line-height: 100% !important;
+	font-weight: 200;
+	text-transform: capitalize;
+	color: white;
+}
+
+.bg_task_title {
+	margin-top: 1%;
+/*	-webkit-transform: rotate(90deg);
+*/	position: fixed;
+	top: 0;
+	right: 0;
+	margin-right: 5%;
+	font-weight: 400;
+	text-transform: capitalize;
+}
